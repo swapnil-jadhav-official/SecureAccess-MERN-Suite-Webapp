@@ -18,6 +18,7 @@ export async function getUsername(){
 /** authenticate function */
 export async function authenticate(username){
     try {
+        console.log(axios.defaults.baseURL);
         return await axios.post('/api/authenticate', { username })
     } catch (error) {
         return { error : "Username doesn't exist...!"}
