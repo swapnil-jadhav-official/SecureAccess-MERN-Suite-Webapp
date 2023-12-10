@@ -39,8 +39,6 @@ If you want to run the app locally or contribute to its development, follow the 
  ```bash
    npm install
 
-
-
 4.start server
  ```bash
    npm start
