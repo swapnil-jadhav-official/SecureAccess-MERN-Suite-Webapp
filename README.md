@@ -1,7 +1,7 @@
 # SecureAccess MERN Suite Web App
 
 Welcome to the SecureAccess MERN Suite Web App! This application provides a secure and efficient login authentication and authorization system.
-
+Visit Hosted app on [SecureAccess - web app](https://secureaccess-mern-suite-webapp.onrender.com)
 ## Features
 
 - User authentication using JWT (JSON Web Tokens)
@@ -15,7 +15,7 @@ Welcome to the SecureAccess MERN Suite Web App! This application provides a secu
 
 ## Usage
 
-1. Visit the [web app](https://secureaccess-mern-suite-webapp.onrender.com) to access the login page.
+1. Visit the [SecureAccess - web app](https://secureaccess-mern-suite-webapp.onrender.com) to access the login page.
 2. If you don't have an account, you can register by providing the necessary information.
 3. Once registered, log in using your credentials.
 4. Explore the features based on your assigned user role.
