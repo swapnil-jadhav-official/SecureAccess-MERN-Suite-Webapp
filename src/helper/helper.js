@@ -1,7 +1,7 @@
 import axios from 'axios';
 import jwt_decode from 'jwt-decode';
 
-axios.defaults.baseURL = "https://secureaccess-mern-suite-api.onrender.com";
+//axios.defaults.baseURL = "https://secureaccess-mern-suite-api.onrender.com";
 
 
 /** Make API Requests */
@@ -19,7 +19,7 @@ export async function getUsername(){
 export async function authenticate(username){
     try {
         console.log(axios.defaults.baseURL);
-        return await axios.post('/api/authenticate', { username })
+        return await axios.post('https://secureaccess-mern-suite-api.onrender.com/api/authenticate', { username })
     } catch (error) {
         return { error : "Username doesn't exist...!"}
     }
