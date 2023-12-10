@@ -2,7 +2,7 @@ import axios from "axios";
 import { useEffect, useState } from "react";
 import { getUsername } from '../helper/helper'
 
-axios.defaults.baseURL = process.env.REACT_APP_SERVER_DOMAIN;
+const baseURL = "https://secureaccess-mern-suite-api.onrender.com";
 
 
 /** custom hook */
@@ -18,7 +18,7 @@ export default function useFetch(query){
     
                     const { username } = !query ? await getUsername() : '';
                     
-                    const { data, status } = !query ? await axios.get(`/api/user/${username}`) : await axios.get(`/api/${query}`);
+                    const { data, status } = !query ? await axios.get(`${baseURL}/api/user/${username}`) : await axios.get(`${baseURL}/api/${query}`);
     
                     if(status === 201){
                         setData(prev => ({ ...prev, isLoading: false}));
