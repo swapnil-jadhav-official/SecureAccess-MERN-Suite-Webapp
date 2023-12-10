@@ -35,10 +35,10 @@ If you want to run the app locally or contribute to its development, follow the 
    ```bash
    cd secureaccess-mern-suite-webapp
 
-3.Install dependencies
+3. Install dependencies
  ```bash
    npm install
 
-4.start server
+4. Start server
  ```bash
    npm start
