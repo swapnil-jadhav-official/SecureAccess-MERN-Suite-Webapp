@@ -1,7 +1,7 @@
 import axios from 'axios';
 import jwt_decode from 'jwt-decode';
 
-axios.defaults.baseURL = process.env.REACT_APP_SERVER_DOMAIN;
+axios.defaults.baseURL = "https://secureaccess-mern-suite-api.onrender.com";
 
 
 /** Make API Requests */
