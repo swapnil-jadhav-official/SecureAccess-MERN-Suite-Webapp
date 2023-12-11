@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8" />
     <!-- <link rel="icon" href="%PUBLIC_URL%/favicon.ico" /> -->
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="viewport" content="width=1536, height=807">
     <meta name="theme-color" content="#000000" />
     <meta
       name="description"
@@ -40,18 +40,4 @@
       To create a production bundle, use `npm run build` or `yarn build`.
     -->
   </body>
-  <script>
-    function setViewport() {
-      const width = window.innerWidth;
-
-      if (width >= 1536) {
-        document.documentElement.setAttribute("viewport", "width=1536, height=807");
-      } else {
-        document.documentElement.setAttribute("viewport", "width=320, height=480");
-      }
-    }
-
-    window.addEventListener("resize", setViewport);
-    setViewport();
-  </script>
 </html>
