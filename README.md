@@ -5,13 +5,22 @@ Visit Hosted app on [SecureAccess - web app](https://secureaccess-mern-suite-web
 ## Features
 
 - User authentication using JWT (JSON Web Tokens)
-- Role-based access control
 - Responsive design for a seamless user experience
 - MongoDB for data storage
 - Express.js for the backend
 - React.js for the frontend
 - Node.js for server-side scripting
 - Hosted on [Render](https://secureaccess-mern-suite-webapp.onrender.com)
+
+## ScreenShots 
+
+![alt text](./public/images/SecureAccess-1.jpg)
+##
+![alt text](./public/images/SecureAccess-2.jpg)
+##
+![alt text](./public/images/SecureAccess-3.png)
+##
+![alt text](./public/images/SecureAccess-4.png)
 
 ## Usage
 
